@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    <title>HTML/CSS Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" id="sidebar">
+            <div class="sidebarWrap">
+                <div class="title">HTML - CSS Practice</div>
+                <p>
+                    <a href="./photo-gallery/photo-gallery.html" target="iframe_content">
+                        Photo Gallery
+                    </a>
+                </p>
+                <p>
+                    <a href="./balance-sheet/balance-sheet.html" target="iframe_content">
+                        Balance Sheet
+                    </a>
+                </p>
+                <p><a href="./registration-form/registration-form.html" target="iframe_content">
+                        Register Form
+                    </a>
+                </p>
+
+                <p>
+                    <a href="./coffee-menu/coffee-menu.html" target="iframe_content">
+                        Coffee Menu
+                    </a>
+                </p>
+                <p>
+                    <a href="./nutrition-label/nutrition-label.html" target="iframe_content">
+                        Nutrition Label
+                    </a>
+                </p>
+                <p>
+                    <a href="./survey-form/survey-form.html" target="iframe_content">
+                        Survey Form
+                    </a>
+                </p>
+                <p>
+                    <a href="./color-marker/color-marker.html" target="iframe_content">
+                        Color Marker
+                    </a>
+                </p>
+
+                <p>
+                    <a href="./quiz/quiz.html" target="iframe_content">
+                        Quiz
+                    </a>
+                </p>
+
+
+                <p>
+                    <a href="./technical-page/technical-document-page.html" target="iframe_content">
+                        Technical Page
+                    </a>
+                </p>
+                <p>
+                    <a href="./tribute-page/tribute-page.html" target="iframe_content">
+                        Tribute Page
+                    </a>
+                </p>
+
+
+            </div>
+        </div>
+        <button class='bx bx-menu' id="bx-menu" onclick="showSideBar()"></button>
+        <button class='bx bx-x' id="bx-x" onclick="hideSideBar()"></button>
+        <div class=" content">
+            <iframe src="./photo-gallery/photo-gallery.html" name="iframe_content" title="Iframe Content"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

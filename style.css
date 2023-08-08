@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+
+}
+
+button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background-color: #1b1b32;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.sidebar {
+    min-width: 350px;
+    height: 100vh;
+    background-color: #1b1b32;
+    overflow-y: scroll;
+
+}
+
+.sidebarWrap {
+    margin-top: 5px;
+
+}
+
+.title {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.sidebarWrap p {
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    border-top: 1px solid #ffffff55;
+
+}
+
+.sidebarWrap a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 75px;
+    color: #fff;
+}
+
+
+.sidebarWrap p:hover,
+.sidebarWrap p:focus {
+    background-color: rgba(58, 58, 158, 0.8);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.content {
+    width: 100%;
+    height: 100vh;
+    border: 10px solid #000;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar {
+        display: none;
+        position: absolute;
+        top: 5px;
+        left: 0;
+    }
+
+}
