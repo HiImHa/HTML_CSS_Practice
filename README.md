@@ -1,6 +1,6 @@
-# HTML_CSS_Practice
+# HTML_CSS_Template
 
-🌸 [HTML - CSS] HTML - CSS Practice: The collection of HTML/CSS templates during my practice and creation
+🌸 [HTML - CSS] HTML - CSS Template: The collection of HTML/CSS templates during my practice and creation
 
 📌 https://hiimha.github.io/html-css-practice/
 
