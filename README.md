@@ -2,7 +2,7 @@
 
 🌸 [HTML - CSS] HTML - CSS Template: The collection of HTML/CSS templates during my practice and creation
 
-📌 https://hiimha.github.io/html-css-practice/
+📌 https://hiimha.github.io/PRACTICE_html-css/
 
 # Table of contents
 
